@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'SourceHanSansCN-Regular';
+  font-display: swap;
+  src: url('/webfont/Source Han Sans CN Regular.otf');
+}
+html,
+body,
+div,
+a,
+span,
+i,
+svg,
+table,
+tr,
+th,
+td,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+img {
+  margin: 0;
+  padding: 0;
+  font-family: 'SourceHanSansCN-Regular';
+}
+html,
+body {
+  font-family: 'SourceHanSansCN-Regular';
+  font-display: swap;
+  background-color: #f7f7f7;
+}
+:root {
+  /* body 背景色 */
+  --body-bg: #ededed;
+  /* 导航条侧边栏背景色 */
+  --nav-bg: #001529;
+  --nav-sub-bg: #000D17;
+  --nav-select-bg: #1990FF;
+  /* 导航条文字默认颜色 */
+  --nav-normal-color:#FFFFFF;
+   /* 导航条高亮文字颜色 */
+   --nav-active-color:#FFFFFF;
+
+
+   /* topbar 顶部导航条背景色 */
+  --topbar-bg:#fff;
+
+  --table-th-bg: #F0F2F5;
+  --table-th-color: #202633;
+  --table-td-color: #141A33;
+
+  
+  --title-font-color: #616161;
+  --primary: #3593FD;
+  --success: #52c41a;
+  --error: #eb4333;
+  --error-hover: #cc2929;
+}

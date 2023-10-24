@@ -1,0 +1,71 @@
+
+// Z-tree
+.z-tree-box {
+  .z-tree-item {
+    display: inline-block;
+    padding-right: 2px;
+    margin-bottom: 4px;
+    min-width: 100%;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .z-tree-child .z-tree-item {
+    .title-flex {
+      padding-left: 14px;
+    }
+  }
+
+  .title-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    line-height: 28px;
+    padding: 0 4px;
+    box-sizing: border-box;
+    .switch-icon {
+      display: flex;
+      align-items: center;
+    }
+
+    .file-icon {
+    }
+
+    .title {
+      font-size: 16px;
+      padding: 0 4px;
+      box-sizing: border-box;
+      white-space: nowrap;
+      color: #000;
+      display: flex;
+      align-items: center;
+    }
+
+    &:hover {
+      background-color: #f7f7f7;
+    }
+  }
+
+  .z-tree-item.leaf .title {
+   text-indent: 30px;
+  }
+  .z-tree-item.active{
+    .title-flex{
+      background-color: #f7f7f7;
+      color: #EB4333;
+      .title{
+        color:#EB4333;
+      }
+    }
+  }
+
+  .z-tree-item.open > .z-tree-child {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .z-tree-child {
+    display: none;
+  }
+}

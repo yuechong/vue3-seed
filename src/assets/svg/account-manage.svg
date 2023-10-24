@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.568" height="11.997" viewBox="0 0 12.568 11.997">
+  <g id="账户管理">
+    <g id="ant-design">
+      <rect id="矩形" width="11.988" height="11.988" transform="translate(0.278 0)" fill="currentColor" opacity="0"/>
+      <path id="contacts-line" d="M11.712,4.428h2.856V5.57H11.712ZM10.569,7.284h4V8.426h-4Zm1.714,2.856h2.285v1.143H12.283ZM2,13a4.57,4.57,0,0,1,9.14,0H10a3.428,3.428,0,1,0-6.855,0ZM6.57,7.855A3.428,3.428,0,1,1,10,4.428,3.427,3.427,0,0,1,6.57,7.855Zm0-1.143A2.285,2.285,0,1,0,4.285,4.428,2.284,2.284,0,0,0,6.57,6.713Z" transform="translate(-2 -1)" fill="currentColor"/>
+    </g>
+  </g>
+</svg>
